@@ -1,0 +1,956 @@
+/*Main page */
+img {
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: rgb(253, 237, 214);
+	font-family: calibri;
+	display: block;
+}
+
+section, main {
+	border-bottom: 1px solid grey;
+}
+
+.btn {
+	background-color: #0066ff;
+	text-align: center;
+	display: inline-block;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered {
+	position: absolute;
+	font-family: 'Gochi Hand', cursive;
+	top: 33%;
+	left: 25%;
+	font-size: 80px;
+	transform: translate (-50%, -50%);
+}
+
+.container .img {
+	width: 100%;
+	height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  background-color: #5B7CE8;
+  color: #FDFCFB;
+  font-family: calibri;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 2px solid darkblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: #545096;
+}
+
+/*primary navigation*/
+#primarynav li {
+	list-style: none;
+	display: inline-block;
+	color: #45116F;
+}
+
+#primarynav a:visited {
+	color: #45116F;
+}
+
+
+#primarynav a:hover {
+	color: #DA2415;
+}
+
+#primarynav {
+	background-color: #5B7CE8;
+	text-align: center;
+	font-size: 28px;
+	padding-left: 2px;
+	letter-spacing: 0.07em;
+	color: #F9FCFF;
+}
+
+#headerlinks li {
+	list-style: none;
+	t-align: center;
+	display: inline-block;
+	margin: 0.50rem;
+	letter-spacing: 0.0625em;
+}
+
+#headerlinks {
+	text-align: right;
+}
+
+.logo {
+	height: 6%;
+	width: 6%;
+	position: relative;
+	float: left;
+}
+
+/*homepage*/
+.homepagetitle {
+	font-size: 32px;
+	text-align: center;
+	color: #45116F;
+}
+
+.homepageimage {
+	height: 90%;
+	width: 90%;
+	padding-left: 60px;
+	padding-top: 20px;
+}
+
+.avatar img{
+	border: 2px solid #45116F;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	float: right;
+}
+
+.avatar2 img{
+	border: 2px solid #45116F;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	float: right;
+}
+
+.msuzin {
+	position: relative;
+	width: 320px;
+	height: 200px;
+	text-align: justify;
+	background: white;
+	float: left;
+	font-style: italic;
+	border: 2px solid #45116F;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.eanikpe {
+	position: relative;
+	width: 320px;
+	height: 200px;
+	text-align: justify;
+	background: white;
+	float: right;
+	font-style: italic;
+	border: 2px solid #45116F;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.beerselection {
+	float: left;
+	width: 29.8%;
+	padding-right: 30px;
+	height: 30%;
+	margin-top: 10px;
+	margin-left: 35px;
+	padding-top: 2px;
+	padding-left: 30px;
+	padding: 10px;
+}
+
+.autumnriver {
+	float: left;
+	width: 29.8%;
+	padding-right: 30px;
+	height: 30%;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+.homepagetextblock {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nightcanal {
+	float: left;
+	width: 31.5%;
+	padding-right: 21px;
+	margin-top: 7px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.bicycle {
+	float: left;
+	width: 30%;
+	padding-right: 21px;
+	margin-top: 5px;
+	padding-top: 2px;
+	margin-bottom: 30px;
+}
+
+.castillion {
+	float: left;
+	width: 31%;
+	padding-top: 5px;
+	margin-bottom: 30px;
+}
+
+.picturerow {
+	display: inline-block;
+	align: justify;
+	padding-top:10px;
+}
+
+.canalbridge {
+	width: 95%;
+	float: left;
+	height: 97%
+}
+
+.secondtext {
+	float: left;
+	background: white;
+	border: 2px solid #45116F;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 600px;
+}
+
+.plasticwhale {
+	float: left;
+	width: 29.8%;
+	padding-right: 20px;
+	height: 30%;
+	margin-top: 10px;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-left: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+.brugesfood {
+	float: left;
+	width: 34%;
+	padding-right: 0px;
+	height: 30%;
+	margin-top: 10px;
+	margin-left: 35px;
+	padding-top: 2px;
+	padding-left: 30px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+.flexcontainer2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: flex;
+	justify-content: center;
+}
+
+.flexrow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+/*places secondary nav*/
+#secondarynav a{
+	font: calibri;
+	text-align: center;
+}
+
+#columns li {
+	float: center;
+	padding: 0px 90px 0px 0px;
+	text-align: center;
+	display: inline-block;
+}
+
+#secondarynav a:visited {
+	color: #45116F;
+}
+
+#secondarynav a:hover {
+	color: #DA2415;
+}
+
+/*Places content*/
+.placesimage {
+	position: relative;
+	height: 90%;
+	width: 90%;
+	padding-left: 60px;
+}
+
+.textblock {
+	position: fixed; 
+	top: 50px; 
+	left: 17%; 
+	width: 70%;
+	height: 450px;
+	text-align: centre;
+}
+
+.placesimage .textblock {
+	position: absolute;
+	bottom: 10;
+	background: rgba(250, 247, 247, 0.8);
+	color: #000000;
+	width: 60%;
+	padding:20px;
+	text-align: center;
+	padding-left: 40px;
+	margin-left: 30px;
+}
+
+img.bruggemarkt {
+	height: 35%;
+	width: 35%;
+}
+	
+.bruggemarkt {	
+	float: right;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: left;
+}
+
+.bruggemarkttext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.BrugeMarkt {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.minnewaterlake {
+	height: 35%;
+	width: 35%;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+
+.MinnewaterLake {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+.minnewatertext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.minnewaterlake {
+	float: left;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: right;
+}
+
+.TortureMuseum {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.torturemuseum {
+	height: 35%;
+	width: 35%;
+}
+
+.torturemuseumtext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.torturemuseum {
+	float: right;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: left;
+}
+
+.Basilica {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+.basilicatext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.basilica {
+	float: left;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: right;
+}
+
+img.basilica {
+	height: 35%;
+	width: 35%;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+
+.FlandresBreweryHead {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.flandresbrewery {
+	height: 35%;
+	width: 35%;
+}
+
+.flandrestext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.flandresbrewery {
+	float: right;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: left;
+}
+
+.placestitle {
+	text-align: center;
+	margin-right: 60px;
+}
+
+h2 {
+	padding-left: 60px;
+}
+
+p {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 10px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+/*TransportPage*/
+.transportimage {
+	position: relative;
+	height: 40%;
+	width: 90%;
+	padding-left: 60px;
+}
+
+.transporttextblock { 
+	top: 50px; 
+	left: 17%; 
+	width: 70%;
+	height: 450px;
+	text-align: centre;
+}
+
+.transportimage .transporttextblock {
+	position: absolute;
+	bottom: 10;
+	background: rgba(250, 247, 247, 0.8);
+	color: #000000;
+	width: 60%;
+	padding:20px;
+	text-align: center;
+	padding-left: 40px;
+	margin-left: 30px;
+}
+
+.transporttitle{
+	text-align: center;
+	margin-right: 80px;
+}
+
+#transportnav li {
+	color: #45116F;
+	border: 2px solid #45116F;
+	background-color: #5B7CE8;
+	width: 310px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-size: 22px;
+	position: relative;
+}
+
+#transportnav a:hover {
+	color: #DA2415;
+}
+
+.column1 {
+	display: inline-block;
+    width: 25%;
+    vertical-align: top;
+	margin-right: 57px;
+	float: left;
+}
+
+.column2 {
+	display: inline-block;
+    width: 70%;
+    vertical-align: top;
+	float: left;
+}
+
+.flexcontainer {
+	display: flex;
+	justify-content: right;
+}
+
+.pagewrapper {
+	width: 80%;
+	margin: 0.75rem auto;
+}
+	
+.busicon {
+	width: 5%;
+}
+
+.trainicon {
+	width: 5%;
+}
+
+.taxiicon {
+	width: 5%;
+}
+
+.boaticon {
+	width: 5%;
+}
+
+.carriageicon {
+	width: 5%;
+}
+
+img.brugesbus {
+	height: 35%;
+	width: 35%;
+	padding-left: 50px;
+	padding-right: 10px;
+	float: left;
+}
+
+.Buses {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+	width: 780px;
+	float: right;
+}
+
+.brugesbustext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.buses {
+	float: left;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: right;
+}
+
+img.brugestrain {
+	height: 35%;
+	width: 35%;
+	padding-left: 50px;
+	padding-right: 10px;
+	float: left;
+}
+
+.Trains {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+	width: 780px;
+	float: right;
+}
+
+.traintext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.brugestrain {
+	float: left;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: right;
+}
+
+img.brugestaxi {
+	height: 35%;
+	width: 35%;
+	padding-left: 50px;
+	padding-right: 10px;
+	float: left;
+}
+
+.Taxi {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+	width: 780px;
+	float: right;
+}
+
+.taxitext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.brugestaxi {
+	float: left;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: right;
+}
+
+img.riverboat {
+	height: 35%;
+	width: 35%;
+	padding-left: 50px;
+	padding-right: 10px;
+	float: left;
+}
+
+.Riverboat {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+	width: 780px;
+	float: right;
+}
+
+.riverboattext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.riverboat {
+	float: left;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: right;
+}
+
+img.horsecarriage {
+	height: 35%;
+	width: 35%;
+	padding-left: 50px;
+	padding-right: 10px;
+	float: left;
+}
+
+.HorseCarriage {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+	width: 780px;
+	float: right;
+}
+
+.carriagetext {
+	font-size: 18px;
+	padding-left: 60px;
+	text-align: justify;
+	line-height: 1.6;
+	padding-right: 66px;
+}
+
+.horsecarriage {
+	float: left;
+	margin-left: 10px;
+	padding-right: 66px;
+	position: relative;
+	text-align: right;
+}
+
+/*Travel Tips*/
+.traveltipsimage {
+	position: relative;
+	height: 90%;
+	width: 90%;
+	padding-left: 60px;
+}
+
+.traveltextblock {
+	position: absolute; 
+	top: 50px; 
+	left: 17%; 
+	width: 70%;
+	height: 450px;
+	text-align: centre;
+}
+
+.traveltipsimage .traveltextblock {
+	position: absolute;
+	bottom: 10;
+	background: rgba(250, 247, 247, 0.8);
+	color: #000000;
+	width: 60%;
+	padding:20px;
+	text-align: center;
+	padding-left: 40px;
+	margin-left: 30px;
+}
+
+.tipstitle {
+	text-align: center;
+	margin-right: 60px;
+}
+
+.crowds {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.traveltip1 {
+	height: 60%;
+	width: 60%;
+	margin-left: 200px;
+}
+
+.crowdstextblock {
+	text-align: justify;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.timetitle {
+	text-align: center;
+	margin-right: 60px;
+}
+
+.traintimes {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.traindelays {
+	height: 60%;
+	width: 60%;
+	margin-left: 200px;
+}
+
+.traintimetext {
+	text-align: justify;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.holidaytitle {
+	text-align: center;
+	margin-right: 60px;
+}
+
+.publicholidays {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.calendar {
+	height: 60%;
+	width: 60%;
+	margin-left: 200px;
+}
+
+.holidaytext {
+	text-align: justify;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.relaxtitle {
+	text-align: center;
+	margin-right: 60px;
+}
+
+.relax {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.outdoorbar {
+	height: 60%;
+	width: 60%;
+	margin-left: 200px;
+}
+
+.relaxtext {
+	text-align: justify;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.brugescardtitle {
+	text-align: center;
+	margin-right: 60px;
+}
+
+.brugescard {
+	background: white;
+	border: 2px solid #45116F;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 66px;
+}
+
+img.brugescard {
+	height: 60%;
+	width: 60%;
+	margin-left: 200px;
+}
+
+.brugescardtext {
+	text-align: justify;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+/*Footer*/
+footer {
+	display: block;
+	border-top: 2px solid #45116F;
+}
+
+footer li {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	margin: 0.50rem;
+	letter-spacing: 0.0625em;
+}
+
+footer {
+	text-align: center;
+}
+
+.copyright {
+	font-size: 10px;
+}
+
+.maincopyright {
+	font-size: 12px;
+	text-align: left;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.tipscopyright {
+	font-size: 10px;
+	margin-left: 200px;
+}
+
