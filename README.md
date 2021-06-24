@@ -1,2 +1,2 @@
 # Travel-Website
-Travel Webpage for the City of Bruges
+This is a travel website designed for the city of Bruges using HTMl and CSS pages
